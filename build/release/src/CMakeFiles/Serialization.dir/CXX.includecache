@@ -1,0 +1,304 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../src/Common/IInputStream.h
+cstddef
+-
+
+../../src/Common/IOutputStream.h
+cstddef
+-
+
+../../src/Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+../../src/Common/StreamTools.h
+cstdint
+-
+vector
+-
+string
+-
+
+../../src/Common/StringTools.h
+cstdint
+-
+sstream
+-
+stdexcept
+-
+vector
+-
+
+../../src/Common/StringView.h
+cassert
+-
+string
+-
+
+../../src/Serialization/ISerializer.h
+string
+-
+cstdint
+-
+Common/StringView.h
+-
+
+../../src/Serialization/JsonInputStreamSerializer.h
+iosfwd
+-
+string
+-
+vector
+-
+../Common/JsonValue.h
+../../src/Common/JsonValue.h
+JsonInputValueSerializer.h
+../../src/Serialization/JsonInputValueSerializer.h
+
+../../src/Serialization/JsonInputValueSerializer.h
+Common/JsonValue.h
+../../src/Serialization/Common/JsonValue.h
+ISerializer.h
+../../src/Serialization/ISerializer.h
+
+../../src/Serialization/SerializationOverloads.h
+ISerializer.h
+../../src/Serialization/ISerializer.h
+array
+-
+cstring
+-
+list
+-
+map
+-
+string
+-
+set
+-
+type_traits
+-
+vector
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/BinaryInputStreamSerializer.cpp
+BinaryInputStreamSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/BinaryInputStreamSerializer.h
+algorithm
+-
+cassert
+-
+stdexcept
+-
+Common/StreamTools.h
+-
+SerializationOverloads.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/SerializationOverloads.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/BinaryInputStreamSerializer.h
+Common/IInputStream.h
+-
+ISerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+SerializationOverloads.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/SerializationOverloads.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/BinaryOutputStreamSerializer.cpp
+BinaryOutputStreamSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/BinaryOutputStreamSerializer.h
+cassert
+-
+stdexcept
+-
+Common/StreamTools.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/Common/StreamTools.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/BinaryOutputStreamSerializer.h
+Common/IOutputStream.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/Common/IOutputStream.h
+ISerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+SerializationOverloads.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/SerializationOverloads.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+string
+-
+cstdint
+-
+Common/StringView.h
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonInputStreamSerializer.cpp
+Serialization/JsonInputStreamSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/Serialization/JsonInputStreamSerializer.h
+ctype.h
+-
+exception
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonInputValueSerializer.cpp
+JsonInputValueSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonInputValueSerializer.h
+cassert
+-
+stdexcept
+-
+Common/StringTools.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/Common/StringTools.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonInputValueSerializer.h
+Common/JsonValue.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/Common/JsonValue.h
+ISerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonOutputStreamSerializer.cpp
+JsonOutputStreamSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonOutputStreamSerializer.h
+cassert
+-
+stdexcept
+-
+Common/StringTools.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/Common/StringTools.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonOutputStreamSerializer.h
+iostream
+-
+../Common/JsonValue.h
+/home/mm/Área de Trabalho/poupecoin/src/Common/JsonValue.h
+ISerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryCommon.h
+cstdint
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryInputStreamSerializer.cpp
+KVBinaryInputStreamSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryInputStreamSerializer.h
+algorithm
+-
+cassert
+-
+cstring
+-
+stdexcept
+-
+Common/StreamTools.h
+-
+KVBinaryCommon.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryCommon.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryInputStreamSerializer.h
+Common/IInputStream.h
+-
+ISerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+JsonInputValueSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/JsonInputValueSerializer.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryOutputStreamSerializer.cpp
+KVBinaryOutputStreamSerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryOutputStreamSerializer.h
+KVBinaryCommon.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryCommon.h
+cassert
+-
+stdexcept
+-
+Common/StreamTools.h
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/KVBinaryOutputStreamSerializer.h
+vector
+-
+Common/IOutputStream.h
+-
+ISerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+MemoryStream.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/MemoryStream.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/MemoryStream.cpp
+MemoryStream.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/MemoryStream.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/MemoryStream.h
+algorithm
+-
+cstdint
+-
+cstring
+-
+vector
+-
+Common/IOutputStream.h
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/SerializationOverloads.cpp
+Serialization/SerializationOverloads.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/Serialization/SerializationOverloads.h
+limits
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/SerializationOverloads.h
+ISerializer.h
+/home/mm/Área de Trabalho/poupecoin/src/Serialization/ISerializer.h
+array
+-
+cstring
+-
+list
+-
+map
+-
+string
+-
+set
+-
+type_traits
+-
+vector
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+

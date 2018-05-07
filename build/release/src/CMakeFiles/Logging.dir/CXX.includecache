@@ -1,0 +1,140 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../src/Common/ConsoleTools.h
+cstdint
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/CommonLogger.cpp
+CommonLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/CommonLogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/CommonLogger.h
+set
+-
+ILogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ILogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ConsoleLogger.cpp
+ConsoleLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ConsoleLogger.h
+iostream
+-
+unordered_map
+-
+Common/ConsoleTools.h
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ConsoleLogger.h
+mutex
+-
+CommonLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/CommonLogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/FileLogger.cpp
+FileLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/FileLogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/FileLogger.h
+fstream
+-
+StreamLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/StreamLogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ILogger.cpp
+ILogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ILogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ILogger.h
+string
+-
+array
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerGroup.cpp
+LoggerGroup.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerGroup.h
+algorithm
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerGroup.h
+vector
+-
+CommonLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/CommonLogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerManager.cpp
+LoggerManager.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerManager.h
+thread
+-
+ConsoleLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ConsoleLogger.h
+FileLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/FileLogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerManager.h
+list
+-
+memory
+-
+mutex
+-
+../Common/JsonValue.h
+/home/mm/Área de Trabalho/poupecoin/src/Common/JsonValue.h
+LoggerGroup.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerGroup.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerMessage.cpp
+LoggerMessage.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerMessage.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerMessage.h
+iostream
+-
+ILogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ILogger.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerRef.cpp
+LoggerRef.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerRef.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerRef.h
+ILogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/ILogger.h
+LoggerMessage.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/LoggerMessage.h
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/StreamLogger.cpp
+StreamLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/StreamLogger.h
+iostream
+-
+sstream
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/Logging/StreamLogger.h
+mutex
+-
+CommonLogger.h
+/home/mm/Área de Trabalho/poupecoin/src/Logging/CommonLogger.h
+

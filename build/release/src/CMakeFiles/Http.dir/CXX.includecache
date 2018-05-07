@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpParser.cpp
+HttpParser.h
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpParser.h
+algorithm
+-
+HttpParserErrorCodes.h
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpParserErrorCodes.h
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpParser.h
+iostream
+-
+map
+-
+string
+-
+HttpRequest.h
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpRequest.h
+HttpResponse.h
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpResponse.h
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpParserErrorCodes.cpp
+HttpParserErrorCodes.h
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpParserErrorCodes.h
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpParserErrorCodes.h
+string
+-
+system_error
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpRequest.cpp
+HttpRequest.h
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpRequest.h
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpRequest.h
+iostream
+-
+map
+-
+string
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpResponse.cpp
+HttpResponse.h
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpResponse.h
+stdexcept
+-
+
+/home/mm/Área de Trabalho/poupecoin/src/HTTP/HttpResponse.h
+ostream
+-
+string
+-
+map
+-
+
